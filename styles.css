@@ -1,0 +1,63 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(white,rgb(48,62,143));
+  margin: 0;
+  min-height: 100vh;
+}
+
+header h1 {
+  padding-top: 50px;
+  margin: 50px 0px 30px 0px;
+  text-align: center; 
+  font-size: 40px;
+}
+header h2 {
+  text-align: center; 
+  font-size: 25px;
+}
+
+.piano {
+   padding-top: 150px;
+   text-align: center;
+   display: flex;
+   justify-content: center;   
+}
+
+p{
+  color: blue;
+}
+
+
+.white {
+  width: 80px;
+  height: 320px;
+  background-color: white;
+  border: 1px solid #333;
+}
+
+.white:hover{
+  border: 2px solid blue;
+}
+
+.white.active {
+  background-color: #c0c0c0;
+}
+
+.black {
+  width: 50px;
+  height: 200px;
+  background-color: black;
+  margin-left: -25px;
+  margin-right: -25px;
+  z-index: 2;
+}
+.black:hover{
+  border: 2px solid blue;
+}
+
+.black.active {
+  background-color: #333;
+}
